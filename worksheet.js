@@ -64,26 +64,37 @@
 // }
 
 //Function loop problems
-function printMovieName(){
-    let favoriteMovie = '50 First Dates'
-    return favoriteMovie;
+// function printMovieName(){
+//     let favoriteMovie = '50 First Dates'
+//     return favoriteMovie;
+// }
+// let myFavoriteMovie = printMovieName()
+// console.log(myFavoriteMovie)
+
+
+// function usersFavoriteBand(){
+//     let userInput = prompt('What is the name of your favortie band?')
+//     return userInput
+// }
+// let theUsersFavoriteBand = usersFavoriteBand()
+// console.log(theUsersFavoriteBand)
+
+
+// function concertDisplay(musicalAct){
+//     let myStreet = prompt('What street do you live on?');
+//     return myStreet
+// }
+// let myMusicalAct = theUsersFavoriteBand
+// let myStreetName = concertDisplay()
+// console.log(`It would be great if ${myMusicalAct} played a show on ${myStreetName}.`);
+
+//Array problems
+let desktopItems = ['laptop', 'phone', 'clock']
+console.log(desktopItems[1]);
+
+desktopItems.push('Infinity Gauntlet');
+console.log(desktopItems)
+
+for(i = 0; i < desktopItems.length; i++){
+    console.log(desktopItems[i])
 }
-let myFavoriteMovie = printMovieName()
-console.log(myFavoriteMovie)
-
-
-function usersFavoriteBand(){
-    let userInput = prompt('What is the name of your favortie band?')
-    return userInput
-}
-let theUsersFavoriteBand = usersFavoriteBand()
-console.log(theUsersFavoriteBand)
-
-
-function concertDisplay(musicalAct){
-    let myStreet = prompt('What street do you live on?');
-    return myStreet
-}
-let myMusicalAct = theUsersFavoriteBand
-let myStreetName = concertDisplay()
-console.log(`It would be great if ${myMusicalAct} played a show on ${myStreetName}.`);
