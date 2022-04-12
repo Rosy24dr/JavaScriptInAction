@@ -27,20 +27,39 @@
 // console.log(timeOfDay)
 
 
-//Randon Number Problem
-let randomNumber = Math.floor(Math.random() * 11)
+//Randon number problem
+// let randomNumber = Math.floor(Math.random() * 11)
 
-if (randomNumber > 0 && randomNumber < 2){
-    alert('Beatles');
+// if (randomNumber > 0 && randomNumber < 2){
+//     alert('Beatles');
+// }
+// else if (randomNumber > 3 && randomNumber < 5){
+//     alert('Stones');
+// }
+// else if (randomNumber > 6 && randomNumber < 8){
+//     alert('Floyd');
+// }
+// else if (randomNumber > 9 && randomNumber < 10){
+//     alert('Hendrix')
+// }
+
+// console.log(randomNumber)
+
+//Loops problems
+for(let i = 0; i <= 7; i++){
+    console.log('JavaScript is cool!')
 }
-else if (randomNumber > 3 && randomNumber < 5){
-    alert('Stones');
-}
-else if (randomNumber > 6 && randomNumber < 8){
-    alert('Floyd');
-}
-else if (randomNumber > 9 && randomNumber < 10){
-    alert('Hendrix')
+let number = 7
+
+for(let i = 0; i <= number; i++){
+    console.log(i)
 }
 
-console.log(randomNumber)
+let stringOne = 'hello'
+let stringTwo = 'goodbye'
+
+for(let i = 0; i < 5; i++){
+    console.log(stringOne)
+    console.log(stringTwo)
+}
+
