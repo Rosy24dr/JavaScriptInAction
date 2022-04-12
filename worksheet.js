@@ -89,12 +89,38 @@
 // console.log(`It would be great if ${myMusicalAct} played a show on ${myStreetName}.`);
 
 //Array problems
-let desktopItems = ['laptop', 'phone', 'clock']
-console.log(desktopItems[1]);
+// let desktopItems = ['laptop', 'phone', 'clock']
+// console.log(desktopItems[1]);
 
-desktopItems.push('Infinity Gauntlet');
-console.log(desktopItems)
+// desktopItems.push('Infinity Gauntlet');
+// console.log(desktopItems)
 
-for(i = 0; i < desktopItems.length; i++){
-    console.log(desktopItems[i])
+// for(i = 0; i < desktopItems.length; i++){
+//     console.log(desktopItems[i])
+// }
+
+//Magic Number
+let magicNumber = Math.floor(Math.random() * 100)
+let guess = 0
+
+function guessingMagicNumber(){
+    while (guess != magicNumber){
+        guess= prompt('Which number do you think is the magic number?');
+        if ((guess < magicNumber + 10) && (guess > magicNumber - 10)){
+            alert("Getting Warmer")
+        }
+        else if (guess < magicNumber){
+            alert("Too low!")
+        }
+        else if (guess > magicNumber){
+            alert("Too high!")
+        }
+        else if (guess == magicNumber){
+            alert(`Great job! ${magicNumber} is the correct number!`);
+            break
+        }
+    }
 }
+
+let theMagicNumber = guessingMagicNumber()
+console.log(theMagicNumber)
