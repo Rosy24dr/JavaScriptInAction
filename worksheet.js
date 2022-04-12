@@ -25,3 +25,22 @@
 // }
 
 // console.log(timeOfDay)
+
+
+//Randon Number Problem
+let randomNumber = Math.floor(Math.random() * 11)
+
+if (randomNumber > 0 && randomNumber < 2){
+    alert('Beatles');
+}
+else if (randomNumber > 3 && randomNumber < 5){
+    alert('Stones');
+}
+else if (randomNumber > 6 && randomNumber < 8){
+    alert('Floyd');
+}
+else if (randomNumber > 9 && randomNumber < 10){
+    alert('Hendrix')
+}
+
+console.log(randomNumber)
