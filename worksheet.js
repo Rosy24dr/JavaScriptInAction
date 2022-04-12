@@ -46,20 +46,44 @@
 // console.log(randomNumber)
 
 //Loops problems
-for(let i = 0; i <= 7; i++){
-    console.log('JavaScript is cool!')
+// for(let i = 0; i <= 7; i++){
+//     console.log('JavaScript is cool!')
+// }
+// let number = 7
+
+// for(let i = 0; i <= number; i++){
+//     console.log(i)
+// }
+
+// let stringOne = 'hello'
+// let stringTwo = 'goodbye'
+
+// for(let i = 0; i < 5; i++){
+//     console.log(stringOne)
+//     console.log(stringTwo)
+// }
+
+//Function loop problems
+function printMovieName(){
+    let favoriteMovie = '50 First Dates'
+    return favoriteMovie;
 }
-let number = 7
+let myFavoriteMovie = printMovieName()
+console.log(myFavoriteMovie)
 
-for(let i = 0; i <= number; i++){
-    console.log(i)
+
+function usersFavoriteBand(){
+    let userInput = prompt('What is the name of your favortie band?')
+    return userInput
 }
+let theUsersFavoriteBand = usersFavoriteBand()
+console.log(theUsersFavoriteBand)
 
-let stringOne = 'hello'
-let stringTwo = 'goodbye'
 
-for(let i = 0; i < 5; i++){
-    console.log(stringOne)
-    console.log(stringTwo)
+function concertDisplay(musicalAct){
+    let myStreet = prompt('What street do you live on?');
+    return myStreet
 }
-
+let myMusicalAct = theUsersFavoriteBand
+let myStreetName = concertDisplay()
+console.log(`It would be great if ${myMusicalAct} played a show on ${myStreetName}.`);
